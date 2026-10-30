@@ -34,3 +34,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Deploy on Render
+
+This project is configured as a Node web service for Render, not a static site. Render will look for a `dist` folder when set to static hosting, which causes the error seen in the screenshot. The repo includes a `render.yaml` file that tells Render to build with `npm run build` and serve the app with `npm run start`.
+
+If you are creating the service in the Render dashboard, choose `Web Service` and set:
+
+- Build Command: `npm install && npm run build`
+- Start Command: `npm run start`
+- Publish Directory: leave blank (or do not use a static site)
