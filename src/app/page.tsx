@@ -172,7 +172,7 @@ export default function Home() {
               <div className="space-y-3 text-sm leading-relaxed text-slate-400">
                 <p className="text-base font-medium text-slate-200">B.Tech in Computer Science &amp; Engineering</p>
                 <p>Jaypee Institute of Information Technology</p>
-                <p>Graduating May 2027 <span className="text-slate-600">·</span> CGPA 6.53 / 10.0</p>
+                <p>Graduating May 2027</p>
                 <div className="border-t border-white/10 pt-3">
                   <p>CBSE Class XII: 91.2% (2021)</p>
                   <p>CBSE Class X: 90.5% (2019)</p>
@@ -183,9 +183,9 @@ export default function Home() {
               <p className="mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-300">02 / Focus</p>
               <h3 className="mb-5 text-2xl font-bold text-white">What I’m exploring</h3>
               <div className="space-y-3 text-sm leading-relaxed text-slate-400">
-                <p>Deploying applications with AWS EC2, S3, and RDS.</p>
-                <p>Understanding database internals and core DBMS concepts.</p>
-                <p>Strengthening foundations in operating systems and object-oriented programming.</p>
+                <p>Building full-stack applications with JavaScript, React, Node.js, and MongoDB, supported by HTML and CSS.</p>
+                <p>Exploring how Cloudinary media delivery and adaptive-bitrate video streaming help create responsive, scalable video experiences.</p>
+                <p>Learning how database internals and cloud services such as AWS EC2, S3, and RDS support applications as traffic and data grow.</p>
               </div>
             </div>
           </div>
